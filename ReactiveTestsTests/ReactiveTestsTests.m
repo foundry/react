@@ -2,8 +2,8 @@
 //  ReactiveTestsTests.m
 //  ReactiveTestsTests
 //
-//  Created by jonathan on 10/05/2014.
-//  Copyright (c) 2014 ellipsis.com. All rights reserved.
+//  Created by foundry on 10/05/2014.
+//  Copyright (c) 2014 foundry - feel free to copy
 //
 
 #import <XCTest/XCTest.h>

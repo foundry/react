@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0B8342191EC854004E6B2F /* CVImagePickerSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B8341191EC854004E6B2F /* CVImagePickerSegmentedControl.m */; };
 		AB508C75191EAC8700BD73A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB508C74191EAC8700BD73A4 /* Foundation.framework */; };
 		AB508C77191EAC8700BD73A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB508C76191EAC8700BD73A4 /* CoreGraphics.framework */; };
 		AB508C79191EAC8700BD73A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB508C78191EAC8700BD73A4 /* UIKit.framework */; };
@@ -22,6 +23,8 @@
 		AB508C99191EAC8700BD73A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB508C78191EAC8700BD73A4 /* UIKit.framework */; };
 		AB508CA1191EAC8700BD73A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB508C9F191EAC8700BD73A4 /* InfoPlist.strings */; };
 		AB508CA3191EAC8700BD73A4 /* ReactiveTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB508CA2191EAC8700BD73A4 /* ReactiveTestsTests.m */; };
+		AB9515511920E2D30092949E /* JMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9515501920E2D30092949E /* JMViewModel.m */; };
+		E83F257E1CC44F799CFA08A6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FED68F4DE84A40851418AA /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9DE1EC139625427E8E9979B5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AB0B8340191EC854004E6B2F /* CVImagePickerSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVImagePickerSegmentedControl.h; sourceTree = "<group>"; };
+		AB0B8341191EC854004E6B2F /* CVImagePickerSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVImagePickerSegmentedControl.m; sourceTree = "<group>"; };
 		AB508C71191EAC8700BD73A4 /* ReactiveTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB508C74191EAC8700BD73A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB508C76191EAC8700BD73A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +61,9 @@
 		AB508C9E191EAC8700BD73A4 /* ReactiveTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReactiveTestsTests-Info.plist"; sourceTree = "<group>"; };
 		AB508CA0191EAC8700BD73A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB508CA2191EAC8700BD73A4 /* ReactiveTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveTestsTests.m; sourceTree = "<group>"; };
+		AB95154F1920E2D30092949E /* JMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMViewModel.h; sourceTree = "<group>"; };
+		AB9515501920E2D30092949E /* JMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMViewModel.m; sourceTree = "<group>"; };
+		C9FED68F4DE84A40851418AA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +74,7 @@
 				AB508C77191EAC8700BD73A4 /* CoreGraphics.framework in Frameworks */,
 				AB508C79191EAC8700BD73A4 /* UIKit.framework in Frameworks */,
 				AB508C75191EAC8700BD73A4 /* Foundation.framework in Frameworks */,
+				E83F257E1CC44F799CFA08A6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +98,7 @@
 				AB508C9C191EAC8700BD73A4 /* ReactiveTestsTests */,
 				AB508C73191EAC8700BD73A4 /* Frameworks */,
 				AB508C72191EAC8700BD73A4 /* Products */,
+				9DE1EC139625427E8E9979B5 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +118,7 @@
 				AB508C76191EAC8700BD73A4 /* CoreGraphics.framework */,
 				AB508C78191EAC8700BD73A4 /* UIKit.framework */,
 				AB508C96191EAC8700BD73A4 /* XCTest.framework */,
+				C9FED68F4DE84A40851418AA /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,12 +126,16 @@
 		AB508C7A191EAC8700BD73A4 /* ReactiveTests */ = {
 			isa = PBXGroup;
 			children = (
+				AB0B8340191EC854004E6B2F /* CVImagePickerSegmentedControl.h */,
+				AB0B8341191EC854004E6B2F /* CVImagePickerSegmentedControl.m */,
 				AB508C83191EAC8700BD73A4 /* JMAppDelegate.h */,
 				AB508C84191EAC8700BD73A4 /* JMAppDelegate.m */,
 				AB508C86191EAC8700BD73A4 /* Main_iPhone.storyboard */,
 				AB508C89191EAC8700BD73A4 /* Main_iPad.storyboard */,
 				AB508C8C191EAC8700BD73A4 /* JMViewController.h */,
 				AB508C8D191EAC8700BD73A4 /* JMViewController.m */,
+				AB95154F1920E2D30092949E /* JMViewModel.h */,
+				AB9515501920E2D30092949E /* JMViewModel.m */,
 				AB508C8F191EAC8700BD73A4 /* Images.xcassets */,
 				AB508C7B191EAC8700BD73A4 /* Supporting Files */,
 			);
@@ -162,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB508CA6191EAC8700BD73A4 /* Build configuration list for PBXNativeTarget "ReactiveTests" */;
 			buildPhases = (
+				8434BB35657C45F6B3A05B70 /* Check Pods Manifest.lock */,
 				AB508C6D191EAC8700BD73A4 /* Sources */,
 				AB508C6E191EAC8700BD73A4 /* Frameworks */,
 				AB508C6F191EAC8700BD73A4 /* Resources */,
+				5520484DB7BC4464A76C961C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,12 +267,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5520484DB7BC4464A76C961C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8434BB35657C45F6B3A05B70 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB508C6D191EAC8700BD73A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AB508C81191EAC8700BD73A4 /* main.m in Sources */,
+				AB9515511920E2D30092949E /* JMViewModel.m in Sources */,
+				AB0B8342191EC854004E6B2F /* CVImagePickerSegmentedControl.m in Sources */,
 				AB508C8E191EAC8700BD73A4 /* JMViewController.m in Sources */,
 				AB508C85191EAC8700BD73A4 /* JMAppDelegate.m in Sources */,
 			);
@@ -388,6 +441,7 @@
 		};
 		AB508CA7191EAC8700BD73A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE1EC139625427E8E9979B5 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -401,6 +455,7 @@
 		};
 		AB508CA8191EAC8700BD73A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE1EC139625427E8E9979B5 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -471,6 +526,7 @@
 				AB508CA8191EAC8700BD73A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB508CA9191EAC8700BD73A4 /* Build configuration list for PBXNativeTarget "ReactiveTestsTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +535,7 @@
 				AB508CAB191EAC8700BD73A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

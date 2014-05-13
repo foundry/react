@@ -2,8 +2,8 @@
 //  JMAppDelegate.h
 //  ReactiveTests
 //
-//  Created by jonathan on 10/05/2014.
-//  Copyright (c) 2014 ellipsis.com. All rights reserved.
+//  Created by foundry on 10/05/2014.
+//  Copyright (c) 2014 All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
